@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+#planets {
+    height: 100vh;
+    width: 100vw;
+}
+
+#sun {
+    background-image: linear-gradient(#b47d3a, #ff982d, #ffd582);
+    width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -430px;
+}
+
+#mercury {
+    background-image: linear-gradient(orange, yellow, orange);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 45vh;
+    left: 382px;
+    border-radius: 50%;
+}
+
+#venus {
+    background-image: linear-gradient(red, orange);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 45vh;
+    left: 515px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#venus-line {
+    position: absolute;
+    left: 133px;
+}
+
+#earth {
+    background-image: linear-gradient(rgb(86, 116, 213), rgb(56, 106, 56), rgb(58, 110, 206));
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 45vh;
+    left: 634px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#earth-line {
+    position: absolute;
+    left: 253px;
+}
+
+#mars {
+    background-image: linear-gradient(red, orangered, orange);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 45vh;
+    left: 755px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#mars-line {
+    position: absolute;
+    left: 373px;
+}
+
+#jupiter {
+    background-image: linear-gradient(beige, orange);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 44vh;
+    left: 867px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#jupiter-line {
+    position: absolute;
+    left: 493px;
+}
+
+#saturn {
+    background-image: linear-gradient(coral, orange);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 44vh;
+    left: 988px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#saturn-line {
+    position: absolute;
+    left: 613px;
+}
+
+#uranus {
+    background-image: linear-gradient(rgb(90, 90, 130), rgb(56, 86, 149));
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 44vh;
+    left: 1108px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#uranus-line {
+    position: absolute;
+    left: 733px;
+}
+
+#neptune {
+    background-image: linear-gradient(rgb(58, 173, 245), rgb(84, 138, 201));
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 45vh;
+    left: 1234px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#neptune-line {
+    position: absolute;
+    left: 853px;
+}
+
+#pluto {
+    background-image: linear-gradient(beige, grey);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 46vh;
+    left: 1364px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#pluto-line {
+    position: absolute;
+    left: 973px;
+}
+
+#buttons {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    z-index: 1;
+}
